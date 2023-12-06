@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "openrgb-profiles"
+version = "0.1.0"
+description = ""
+authors = ["ryleu <69326171+ryleu@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "openrgb_profiles"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openrgb-python = "^0.2.15"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+pylance = "^0.8.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
